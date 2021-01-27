@@ -1,0 +1,258 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>List of CIL instructions - Wikipedia</title><link rel="stylesheet" href="./css1.css"></head><body><table class="wikitable sortable jquery-tablesorter"><thead><tr><th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><a href="https://en.wikipedia.org/wiki/Opcode" title="Opcode">Opcode</a></th><th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+            Instruction
+          </th><th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+            Description
+          </th><th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+            Type of instruction
+          </th></tr></thead><tbody><tr><td>0x58</td><td><code>add</code></td><td>Add two values, returning a new value.</td><td>Base instruction</td></tr><tr><td>0xD6</td><td><code>add.ovf</code></td><td>Add signed integer values with overflow check.
+          </td><td>Base instruction</td></tr><tr><td>0xD7</td><td><code>add.ovf.un</code></td><td>Add unsigned integer values with overflow
+            check.
+          </td><td>Base instruction</td></tr><tr><td>0x5F</td><td><code>and</code></td><td>
+            Bitwise ANDof two integral values, returns an integral
+            value.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x00</td><td><code>arglist</code></td><td>
+            Return argument listhandle for the current method.
+          </td><td>Base instruction</td></tr><tr><td>0x3B</td><td><code>beq &lt;int32 (target)&gt;</code></td><td>Branch to target if equal.</td><td>Base instruction</td></tr><tr><td>0x2E</td><td><code>beq.s &lt;int8 (target)&gt;</code></td><td>Branch to target if equal, short form.</td><td>Base instruction</td></tr><tr><td>0x3C</td><td><code>bge &lt;int32 (target)&gt;</code></td><td>Branch to target if greater than or equal to.
+          </td><td>Base instruction</td></tr><tr><td>0x2F</td><td><code>bge.s &lt;int8 (target)&gt;</code></td><td>Branch to target if greater than or equal to,
+            short form.
+          </td><td>Base instruction</td></tr><tr><td>0x41</td><td><code>bge.un &lt;int32 (target)&gt;</code></td><td>Branch to target if greater than or equal to
+            (unsigned or unordered).
+          </td><td>Base instruction</td></tr><tr><td>0x34</td><td><code>bge.un.s &lt;int8 (target)&gt;</code></td><td>Branch to target if greater than or equal to
+            (unsigned or unordered), short form.
+          </td><td>Base instruction</td></tr><tr><td>0x3D</td><td><code>bgt &lt;int32 (target)&gt;</code></td><td>Branch to target if greater than.</td><td>Base instruction</td></tr><tr><td>0x30</td><td><code>bgt.s &lt;int8 (target)&gt;</code></td><td>Branch to target if greater than, short
+            form.
+          </td><td>Base instruction</td></tr><tr><td>0x42</td><td><code>bgt.un &lt;int32 (target)&gt;</code></td><td>Branch to target if greater than
+            (unsigned or unordered).
+          </td><td>Base instruction</td></tr><tr><td>0x35</td><td><code>bgt.un.s &lt;int8 (target)&gt;</code></td><td>Branch to target if greater than
+            (unsigned or unordered), short form.
+          </td><td>Base instruction</td></tr><tr><td>0x3E</td><td><code>ble &lt;int32 (target)&gt;</code></td><td>Branch to target if less than or equal to.
+          </td><td>Base instruction</td></tr><tr><td>0x31</td><td><code>ble.s &lt;int8 (target)&gt;</code></td><td>Branch to target if less than or equal to,
+            short form.
+          </td><td>Base instruction</td></tr><tr><td>0x43</td><td><code>ble.un &lt;int32 (target)&gt;</code></td><td>Branch to target if less than or equal to
+            (unsigned or unordered).
+          </td><td>Base instruction</td></tr><tr><td>0x36</td><td><code>ble.un.s &lt;int8 (target)&gt;</code></td><td>Branch to target if less than or equal to
+            (unsigned or unordered), short form.
+          </td><td>Base instruction</td></tr><tr><td>0x3F</td><td><code>blt &lt;int32 (target)&gt;</code></td><td>Branch to target if less than.</td><td>Base instruction</td></tr><tr><td>0x32</td><td><code>blt.s &lt;int8 (target)&gt;</code></td><td>Branch to target if less than, short
+            form.
+          </td><td>Base instruction</td></tr><tr><td>0x44</td><td><code>blt.un &lt;int32 (target)&gt;</code></td><td>Branch to target if less than (unsigned
+            or unordered).
+          </td><td>Base instruction</td></tr><tr><td>0x37</td><td><code>blt.un.s &lt;int8 (target)&gt;</code></td><td>Branch to target if less than (unsigned
+            or unordered), short form.
+          </td><td>Base instruction</td></tr><tr><td>0x40</td><td><code>bne.un &lt;int32 (target)&gt;</code></td><td>Branch to target if unequal or unordered.
+          </td><td>Base instruction</td></tr><tr><td>0x33</td><td><code>bne.un.s &lt;int8 (target)&gt;</code></td><td>Branch to target if unequal or unordered,
+            short form.
+          </td><td>Base instruction</td></tr><tr><td>0x8C</td><td><code>box &lt;typeTok&gt;</code></td><td>Convert a boxable value to its boxed form.</td><td>Object model instruction</td></tr><tr><td>0x38</td><td><code>br &lt;int32 (target)&gt;</code></td><td>Branch to target.</td><td>Base instruction</td></tr><tr><td>0x2B</td><td><code>br.s &lt;int8 (target)&gt;</code></td><td>Branch to target, short form.</td><td>Base instruction</td></tr><tr><td>0x01</td><td><code>break</code></td><td>Inform a debugger that a breakpoint has been reached.</td><td>Base instruction</td></tr><tr><td>0x39</td><td><code>brfalse &lt;int32 (target)&gt;</code></td><td>Branch to target if value is zero (false).</td><td>Base instruction</td></tr><tr><td>0x2C</td><td><code>brfalse.s &lt;int8 (target)&gt;</code></td><td>Branch to target if value is zero (false),
+            short form.
+          </td><td>Base instruction</td></tr><tr><td>0x3A</td><td><code>brinst &lt;int32 (target)&gt;</code></td><td>Branch to target if value is a non-null object reference
+            (alias for brtrue).
+          </td><td>Base instruction</td></tr><tr><td>0x2D</td><td><code>brinst.s &lt;int8 (target)&gt;</code></td><td>Branch to target if value is a non-null object reference,
+            short form (alias for brtrue.s).
+          </td><td>Base instruction</td></tr><tr><td>0x39</td><td><code>brnull &lt;int32 (target)&gt;</code></td><td>Branch to target if value is null(alias for
+            brfalse).
+          </td><td>Base instruction</td></tr><tr><td>0x2C</td><td><code>brnull.s &lt;int8 (target)&gt;</code></td><td>Branch to target if value is null(alias for
+            brfalse.s), short form.
+          </td><td>Base instruction</td></tr><tr><td>0x3A</td><td><code>brtrue &lt;int32 (target)&gt;</code></td><td>Branch to target if value is non-zero (true).</td><td>Base instruction</td></tr><tr><td>0x2D</td><td><code>brtrue.s &lt;int8 (target)&gt;</code></td><td>Branch to target if value is non-zero (true),
+            short form.
+          </td><td>Base instruction</td></tr><tr><td>0x39</td><td><code>brzero &lt;int32 (target)&gt;</code></td><td>Branch to target if value is zero(alias for
+            brfalse).
+          </td><td>Base instruction</td></tr><tr><td>0x2C</td><td><code>brzero.s &lt;int8 (target)&gt;</code></td><td>Branch to target if value is zero(alias for
+            brfalse.s), short form.
+          </td><td>Base instruction</td></tr><tr><td>0x28</td><td><code>call &lt;method&gt;</code></td><td>Callmethod described by method.</td><td>Base instruction</td></tr><tr><td>0x29</td><td><code>calli &lt;callsitedescr&gt;</code></td><td>Callmethod indicated on the stack with arguments
+            described by callsitedescr.
+          </td><td>Base instruction</td></tr><tr><td>0x6F</td><td><code>callvirt &lt;method&gt;</code></td><td>Calla method associated with an object.</td><td>Object model instruction</td></tr><tr><td>0x74</td><td><code>castclass &lt;class&gt;</code></td><td>Castobj to class.</td><td>Object model instruction</td></tr><tr><td>0xFE 0x01</td><td><code>ceq</code></td><td>
+            Push 1 (of type int32) if value1 equals value2, else push 0.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x02</td><td><code>cgt</code></td><td>
+            Push 1 (of type int32) if value1 greater that value2, else
+            push 0.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x03</td><td><code>cgt.un</code></td><td>
+            Push 1 (of type int32) if value1 greater that value2,
+            unsigned or unordered, else push 0.
+          </td><td>Base instruction</td></tr><tr><td>0xC3</td><td><code>ckfinite</code></td><td>
+            Throw ArithmeticException if value is not a finitenumber.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x04</td><td><code>clt</code></td><td>
+            Push 1 (of type int32) if value1 lower than value2, else push
+            0.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x05</td><td><code>clt.un</code></td><td>
+            Push 1 (of type int32) if value1 lower than value2,
+            unsigned or unordered, else push 0.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x16</td><td><code>constrained. &lt;thisType&gt;</code></td><td>
+            Call a virtual method on a type constrainedto be type T.
+          </td><td>Prefix to instruction</td></tr><tr><td>0xD3</td><td><code>conv.i</code></td><td>Convert to native int, pushing native int on stack.
+          </td><td>Base instruction</td></tr><tr><td>0x67</td><td><code>conv.i1</code></td><td>Convert to int8, pushing int32 on stack.</td><td>Base instruction</td></tr><tr><td>0x68</td><td><code>conv.i2</code></td><td>Convert to int16, pushing int32 on stack.
+          </td><td>Base instruction</td></tr><tr><td>0x69</td><td><code>conv.i4</code></td><td>Convert to int32, pushing int32 on stack.
+          </td><td>Base instruction</td></tr><tr><td>0x6A</td><td><code>conv.i8</code></td><td>Convert to int64, pushing int64 on stack.
+          </td><td>Base instruction</td></tr><tr><td>0xD4</td><td><code>conv.ovf.i</code></td><td>Convert to a native int (on the stack as native
+            int) and throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x8A</td><td><code>conv.ovf.i.un</code></td><td>Convert unsigned to a native int (on the stack
+            as native int) and throw an exception on
+            overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB3</td><td><code>conv.ovf.i1</code></td><td>Convert to an int8 (on the stack as int32) and
+            throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x82</td><td><code>conv.ovf.i1.un</code></td><td>
+            Convert unsigned to an int8 (on the stack as int32) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB5</td><td><code>conv.ovf.i2</code></td><td>
+            Convert to an int16 (on the stack as int32) and throw an exception
+            on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x83</td><td><code>conv.ovf.i2.un</code></td><td>
+            Convert unsigned to an int16 (on the stack as int32) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB7</td><td><code>conv.ovf.i4</code></td><td>
+            Convert to an int32 (on the stack as int32) and throw an exception
+            on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x84</td><td><code>conv.ovf.i4.un</code></td><td>
+            Convert unsigned to an int32 (on the stack as int32) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB9</td><td><code>conv.ovf.i8</code></td><td>
+            Convert to an int64 (on the stack as int64) and throw an exception
+            on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x85</td><td><code>conv.ovf.i8.un</code></td><td>
+            Convert unsigned to an int64 (on the stack as int64) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xD5</td><td><code>conv.ovf.u</code></td><td>
+            Convert to a native unsigned int (on the stack as native int) and
+            throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x8B</td><td><code>conv.ovf.u.un</code></td><td>
+            Convert unsigned to a native unsigned int (on the stack as native
+            int) and throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB4</td><td><code>conv.ovf.u1</code></td><td>
+            Convert to an unsigned int8 (on the stack as int32) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x86</td><td><code>conv.ovf.u1.un</code></td><td>
+            Convert unsigned to an unsigned int8 (on the stack as int32) and
+            throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB6</td><td><code>conv.ovf.u2</code></td><td>
+            Convert to an unsigned int16 (on the stack as int32) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x87</td><td><code>conv.ovf.u2.un</code></td><td>
+            Convert unsigned to an unsigned int16 (on the stack as int32) and
+            throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xB8</td><td><code>conv.ovf.u4</code></td><td>
+            Convert to an unsigned int32 (on the stack as int32) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x88</td><td><code>conv.ovf.u4.un</code></td><td>
+            Convert unsigned to an unsigned int32 (on the stack as int32) and
+            throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0xBA</td><td><code>conv.ovf.u8</code></td><td>
+            Convert to an unsigned int64 (on the stack as int64) and throw an
+            exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x89</td><td><code>conv.ovf.u8.un</code></td><td>
+            Convert unsigned to an unsigned int64 (on the stack as int64) and
+            throw an exception on overflow.
+          </td><td>Base instruction</td></tr><tr><td>0x76</td><td><code>conv.r.un</code></td><td>
+            Convert unsigned integer to floating-point, pushing F on stack.
+          </td><td>Base instruction</td></tr><tr><td>0x6B</td><td><code>conv.r4</code></td><td>Convert to float32, pushing F on stack.</td><td>Base instruction</td></tr><tr><td>0x6C</td><td><code>conv.r8</code></td><td>Convert to float64, pushing F on stack.</td><td>Base instruction</td></tr><tr><td>0xE0</td><td><code>conv.u</code></td><td>Convert to native unsigned int, pushing native int on stack.</td><td>Base instruction</td></tr><tr><td>0xD2</td><td><code>conv.u1</code></td><td>Convert to unsigned int8, pushing int32 on stack.</td><td>Base instruction</td></tr><tr><td>0xD1</td><td><code>conv.u2</code></td><td>Convert to unsigned int16, pushing int32 on stack.</td><td>Base instruction</td></tr><tr><td>0x6D</td><td><code>conv.u4</code></td><td>Convert to unsigned int32, pushing int32 on stack.</td><td>Base instruction</td></tr><tr><td>0x6E</td><td><code>conv.u8</code></td><td>Convert to unsigned int64, pushing int64 on stack.</td><td>Base instruction</td></tr><tr><td>0xFE 0x17</td><td><code>cpblk</code></td><td>Copy data from memory to memory.</td><td>Base instruction</td></tr><tr><td>0x70</td><td><code>cpobj &lt;typeTok&gt; </code></td><td>Copy a value type from src to dest.</td><td>Object model instruction</td></tr><tr><td>0x5B</td><td><code>div</code></td><td>
+            Divide two values to return a quotient or floating-point result.
+          </td><td>Base instruction</td></tr><tr><td>0x5C</td><td><code>div.un</code></td><td>Divide two values, unsigned, returning a quotient.</td><td>Base instruction</td></tr><tr><td>0x25</td><td><code>dup</code></td><td>Duplicate the value on the top of the stack.</td><td>Base instruction</td></tr><tr><td>0xDC</td><td><code>endfault</code></td><td>End fault clause of an exception block.</td><td>Base instruction</td></tr><tr><td>0xFE 0x11</td><td><code>endfilter</code></td><td>End an exception handling filter clause.</td><td>Base instruction</td></tr><tr><td>0xDC</td><td><code>endfinally</code></td><td>End finally clause of an exception block.</td><td>Base instruction</td></tr><tr><td>0xFE 0x18</td><td><code>initblk</code></td><td>Set all bytes in a block of memory to a given byte value.</td><td>Base instruction</td></tr><tr><td>0xFE 0x15</td><td><code>initobj &lt;typeTok&gt; </code></td><td>Initialize the value at address dest.</td><td>Object model instruction</td></tr><tr><td>0x75</td><td><code>isinst &lt;class&gt;</code></td><td>
+            Test if obj is an instance of class, returning null or an instance
+            of that class or interface.
+          </td><td>Object model instruction</td></tr><tr><td>0x27</td><td><code>jmp &lt;method&gt;</code></td><td>Exit current method and jump to the specified method.</td><td>Base instruction</td></tr><tr><td>0xFE 0x09</td><td><code>ldarg &lt;uint16 (num)&gt;</code></td><td>Load argument numbered num onto the stack.</td><td>Base instruction</td></tr><tr><td>0x02</td><td><code>ldarg.0</code></td><td>Load argument 0 onto the stack.</td><td>Base instruction</td></tr><tr><td>0x03</td><td><code>ldarg.1</code></td><td>Load argument 1 onto the stack.</td><td>Base instruction</td></tr><tr><td>0x04</td><td><code>ldarg.2</code></td><td>Load argument 2 onto the stack.</td><td>Base instruction</td></tr><tr><td>0x05</td><td><code>ldarg.3</code></td><td>Load argument 3 onto the stack.</td><td>Base instruction</td></tr><tr><td>0x0E</td><td><code>ldarg.s &lt;uint8 (num)&gt;</code></td><td>Load argument numbered num onto the stack, short form.</td><td>Base instruction</td></tr><tr><td>0xFE 0x0A</td><td><code>ldarga &lt;uint16 (argNum)&gt;</code></td><td>Fetch the address of argument argNum.</td><td>Base instruction</td></tr><tr><td>0x0F</td><td><code>ldarga.s &lt;uint8 (argNum)&gt;</code></td><td>Fetch the address of argument argNum, short form.</td><td>Base instruction</td></tr><tr><td>0x20</td><td><code>ldc.i4 &lt;int32 (num)&gt;</code></td><td>Push num of type int32 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x16</td><td><code>ldc.i4.0</code></td><td>Push 0 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x17</td><td><code>ldc.i4.1</code></td><td>Push 1 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x18</td><td><code>ldc.i4.2</code></td><td>Push 2 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x19</td><td><code>ldc.i4.3</code></td><td>Push 3 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x1A</td><td><code>ldc.i4.4</code></td><td>Push 4 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x1B</td><td><code>ldc.i4.5</code></td><td>Push 5 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x1C</td><td><code>ldc.i4.6</code></td><td>Push 6 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x1D</td><td><code>ldc.i4.7</code></td><td>Push 7 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x1E</td><td><code>ldc.i4.8</code></td><td>Push 8 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x15</td><td><code>ldc.i4.m1</code></td><td>Push -1 onto the stack as int32.</td><td>Base instruction</td></tr><tr><td>0x15</td><td><code>ldc.i4.M1</code></td><td>Push -1 onto the stack as int32 (alias for ldc.i4.m1).</td><td>Base instruction</td></tr><tr><td>0x1F</td><td><code>ldc.i4.s &lt;int8 (num)&gt;</code></td><td>Push num onto the stack as int32, short form.</td><td>Base instruction</td></tr><tr><td>0x21</td><td><code>ldc.i8 &lt;int64 (num)&gt;</code></td><td>Push num of type int64 onto the stack as int64.</td><td>Base instruction</td></tr><tr><td>0x22</td><td><code>ldc.r4 &lt;float32 (num)&gt;</code></td><td>Push num of type float32 onto the stack as F.</td><td>Base instruction</td></tr><tr><td>0x23</td><td><code>ldc.r8 &lt;float64 (num)&gt;</code></td><td>Push num of type float64 onto the stack as F.</td><td>Base instruction</td></tr><tr><td>0xA3</td><td><code>ldelem &lt;typeTok&gt; </code></td><td>Load the element at index onto the top of the stack.</td><td>Object model instruction</td></tr><tr><td>0x97</td><td><code>ldelem.i</code></td><td>
+            Load the element with type native int at index onto the top of the
+            stack as a native int.
+          </td><td>Object model instruction</td></tr><tr><td>0x90</td><td><code>ldelem.i1</code></td><td>
+            Load the element with type int8 at index onto the top of the stack
+            as an int32.
+          </td><td>Object model instruction</td></tr><tr><td>0x92</td><td><code>ldelem.i2</code></td><td>
+            Load the element with type int16 at index onto the top of the stack
+            as an int32.
+          </td><td>Object model instruction</td></tr><tr><td>0x94</td><td><code>ldelem.i4</code></td><td>
+            Load the element with type int32 at index onto the top of the stack
+            as an int32.
+          </td><td>Object model instruction</td></tr><tr><td>0x96</td><td><code>ldelem.i8</code></td><td>
+            Load the element with type int64 at index onto the top of the stack
+            as an int64.
+          </td><td>Object model instruction</td></tr><tr><td>0x98</td><td><code>ldelem.r4</code></td><td>
+            Load the element with type float32 at index onto the top of the
+            stack as an F.
+          </td><td>Object model instruction</td></tr><tr><td>0x99</td><td><code>ldelem.r8</code></td><td>
+            Load the element with type float64 at index onto the top of the
+            stack as an F.
+          </td><td>Object model instruction</td></tr><tr><td>0x9A</td><td><code>ldelem.ref</code></td><td>
+            Load the element at index onto the top of the stack as an O. The
+            type of the O is the same as the element type of the array pushed on
+            the CIL stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x91</td><td><code>ldelem.u1</code></td><td>
+            Load the element with type unsigned int8 at index onto the top of
+            the stack as an int32.
+          </td><td>Object model instruction</td></tr><tr><td>0x93</td><td><code>ldelem.u2</code></td><td>
+            Load the element with type unsigned int16 at index onto the top of
+            the stack as an int32.
+          </td><td>Object model instruction</td></tr><tr><td>0x95</td><td><code>ldelem.u4</code></td><td>
+            Load the element with type unsigned int32 at index onto the top of
+            the stack as an int32.
+          </td><td>Object model instruction</td></tr><tr><td>0x96</td><td><code>ldelem.u8</code></td><td>
+            Load the element with type unsigned int64 at index onto the top of
+            the stack as an int64 (alias for ldelem.i8).
+          </td><td>Object model instruction</td></tr><tr><td>0x8F</td><td><code>ldelema &lt;class&gt;</code></td><td>
+            Load the address of element at index onto the top of the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x7B</td><td><code>ldfld &lt;field&gt;</code></td><td>
+            Push the value of field of object (or value type) obj, onto the
+            stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x7C</td><td><code>ldflda &lt;field&gt;</code></td><td>Push the address of field of object obj on the stack.</td><td>Object model instruction</td></tr><tr><td>0xFE 0x06</td><td><code>ldftn &lt;method&gt;</code></td><td>
+            Push a pointer to a method referenced by method, on the stack.
+          </td><td>Base instruction</td></tr><tr><td>0x4D</td><td><code>ldind.i</code></td><td>
+            Indirect load value of type native int as native int on the stack.
+          </td><td>Base instruction</td></tr><tr><td>0x46</td><td><code>ldind.i1</code></td><td>Indirect load value of type int8 as int32 on the stack.</td><td>Base instruction</td></tr><tr><td>0x48</td><td><code>ldind.i2</code></td><td>Indirect load value of type int16 as int32 on the stack.</td><td>Base instruction</td></tr><tr><td>0x4A</td><td><code>ldind.i4</code></td><td>Indirect load value of type int32 as int32 on the stack.</td><td>Base instruction</td></tr><tr><td>0x4C</td><td><code>ldind.i8</code></td><td>Indirect load value of type int64 as int64 on the stack.</td><td>Base instruction</td></tr><tr><td>0x4E</td><td><code>ldind.r4</code></td><td>Indirect load value of type float32 as F on the stack.</td><td>Base instruction</td></tr><tr><td>0x4F</td><td><code>ldind.r8</code></td><td>Indirect load value of type float64 as F on the stack.</td><td>Base instruction</td></tr><tr><td>0x50</td><td><code>ldind.ref</code></td><td>Indirect load value of type object ref as O on the stack.</td><td>Base instruction</td></tr><tr><td>0x47</td><td><code>ldind.u1</code></td><td>
+            Indirect load value of type unsigned int8 as int32 on the stack.
+          </td><td>Base instruction</td></tr><tr><td>0x49</td><td><code>ldind.u2</code></td><td>
+            Indirect load value of type unsigned int16 as int32 on the stack.
+          </td><td>Base instruction</td></tr><tr><td>0x4B</td><td><code>ldind.u4</code></td><td>
+            Indirect load value of type unsigned int32 as int32 on the stack.
+          </td><td>Base instruction</td></tr><tr><td>0x4C</td><td><code>ldind.u8</code></td><td>
+            Indirect load value of type unsigned int64 as int64 on the stack
+            (alias for ldind.i8).
+          </td><td>Base instruction</td></tr><tr><td>0x8E</td><td><code>ldlen</code></td><td>
+            Push the length (of type native unsigned int) of array on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0xFE 0x0C</td><td><code>ldloc &lt;uint16 (indx)&gt;</code></td><td>Load local variable of index indx onto stack.</td><td>Base instruction</td></tr><tr><td>0x06</td><td><code>ldloc.0</code></td><td>Load local variable 0 onto stack.</td><td>Base instruction</td></tr><tr><td>0x07</td><td><code>ldloc.1</code></td><td>Load local variable 1 onto stack.</td><td>Base instruction</td></tr><tr><td>0x08</td><td><code>ldloc.2</code></td><td>Load local variable 2 onto stack.</td><td>Base instruction</td></tr><tr><td>0x09</td><td><code>ldloc.3</code></td><td>Load local variable 3 onto stack.</td><td>Base instruction</td></tr><tr><td>0x11</td><td><code>ldloc.s &lt;uint8 (indx)&gt;</code></td><td>Load local variable of index indx onto stack, short form.</td><td>Base instruction</td></tr><tr><td>0xFE 0x0D</td><td><code>ldloca &lt;uint16 (indx)&gt;</code></td><td>Load address of local variable with index indx.</td><td>Base instruction</td></tr><tr><td>0x12</td><td><code>ldloca.s &lt;uint8 (indx)&gt;</code></td><td>Load address of local variable with index indx, short form.</td><td>Base instruction</td></tr><tr><td>0x14</td><td><code>ldnull</code></td><td>Push a null reference on the stack.</td><td>Base instruction</td></tr><tr><td>0x71</td><td><code>ldobj &lt;typeTok&gt; </code></td><td>Copy the value stored at address src to the stack.</td><td>Object model instruction</td></tr><tr><td>0x7E</td><td><code>ldsfld &lt;field&gt;</code></td><td>Push the value of the static field on the stack.</td><td>Object model instruction</td></tr><tr><td>0x7F</td><td><code>ldsflda &lt;field&gt;</code></td><td>Push the address of the static field, field, on the stack.</td><td>Object model instruction</td></tr><tr><td>0x72</td><td><code>ldstr &lt;string&gt;</code></td><td>Push a string object for the literal string.</td><td>Object model instruction</td></tr><tr><td>0xD0</td><td><code>ldtoken &lt;token&gt;</code></td><td>Convert metadata token to its runtime representation.</td><td>Object model instruction</td></tr><tr><td>0xFE 0x07</td><td><code>ldvirtftn &lt;method&gt;</code></td><td>Push address of virtual method on the stack.</td><td>Object model instruction</td></tr><tr><td>0xDD</td><td><code>leave &lt;int32 (target)&gt;</code></td><td>Exit a protected region of code.</td><td>Base instruction</td></tr><tr><td>0xDE</td><td><code>leave.s &lt;int8 (target)&gt;</code></td><td>Exit a protected region of code, short form.</td><td>Base instruction</td></tr><tr><td>0xFE 0x0F</td><td><code>localloc</code></td><td>Allocate space from the local memory pool.</td><td>Base instruction</td></tr><tr><td>0xC6</td><td><code>mkrefany &lt;class&gt;</code></td><td>Push a typed reference to ptr of type class onto the stack.</td><td>Object model instruction</td></tr><tr><td>0x5A</td><td><code>mul</code></td><td>Multiply values.</td><td>Base instruction</td></tr><tr><td>0xD8</td><td><code>mul.ovf</code></td><td>
+            Multiply signed integer values. Signed result shall fit in same
+            size.
+          </td><td>Base instruction</td></tr><tr><td>0xD9</td><td><code>mul.ovf.un</code></td><td>
+            Multiply unsigned integer values. Unsigned result shall fit in same
+            size.
+          </td><td>Base instruction</td></tr><tr><td>0x65</td><td><code>neg</code></td><td>Negate value.</td><td>Base instruction</td></tr><tr><td>0x8D</td><td><code>newarr &lt;etype&gt;</code></td><td>Create a new array with elements of type etype.</td><td>Object model instruction</td></tr><tr><td>0x73</td><td><code>newobj &lt;ctor&gt;</code></td><td>Allocate an uninitialized object or value type and call ctor.</td><td>Object model instruction</td></tr><tr><td>0xFE 0x19</td><td><pre>
+no. {
+ typecheck,
+ rangecheck,
+ nullcheck
+ }</pre></td><td>
+            The specified fault check(s) normally performed as part of the
+            execution of the subsequent instruction can/shall be skipped.
+          </td><td>Prefix to instruction</td></tr><tr><td>0x00</td><td><code>nop</code></td><td>Do nothing (No operation).</td><td>Base instruction</td></tr><tr><td>0x66</td><td><code>not</code></td><td>Bitwise complement (logical not).</td><td>Base instruction</td></tr><tr><td>0x60</td><td><code>or</code></td><td>Bitwise ORof two integer values, returns an integer.</td><td>Base instruction</td></tr><tr><td>0x26</td><td><code>pop</code></td><td>Popvalue from the stack.</td><td>Base instruction</td></tr><tr><td>0xFE 0x1E</td><td><code>readonly.</code></td><td>
+            Specify that the subsequent array address operation performs no type
+            check at runtime, and that it returns a controlled-mutability
+            managed pointer.
+          </td><td>Prefix to instruction</td></tr><tr><td>0xFE 0x1D</td><td><code>refanytype</code></td><td>Push the type token stored in a typed reference.</td><td>Object model instruction</td></tr><tr><td>0xC2</td><td><code>refanyval &lt;type&gt;</code></td><td>Push the address stored in a typed reference.</td><td>Object model instruction</td></tr><tr><td>0x5D</td><td><code>rem</code></td><td>Remainder when dividing one value by another.</td><td>Base instruction</td></tr><tr><td>0x5E</td><td><code>rem.un</code></td><td>Remainder when dividing one unsigned value by another.
+          </td><td>Base instruction</td></tr><tr><td>0x2A</td><td><code>ret</code></td><td>Return from method, possibly with a value.</td><td>Base instruction</td></tr><tr><td>0xFE 0x1A</td><td><code>rethrow</code></td><td>Rethrowthe current exception.</td><td>Object model instruction</td></tr><tr><td>0x62</td><td><code>shl</code></td><td>Shift an integer left (shifting in zeros), return an
+            integer.
+          </td><td>Base instruction</td></tr><tr><td>0x63</td><td><code>shr</code></td><td>Shift an integer right (shift in sign), return an
+            integer.
+          </td><td>Base instruction</td></tr><tr><td>0x64</td><td><code>shr.un</code></td><td>Shift an integer right (shift in zero), return an integer.</td><td>Base instruction</td></tr><tr><td>0xFE 0x1C</td><td><code>sizeof &lt;typeTok&gt; </code></td><td>Push the size, in bytes, of a type as an unsigned int32.</td><td>Object model instruction</td></tr><tr><td>0xFE 0x0B</td><td><code>starg &lt;uint16 (num)&gt;</code></td><td>Store value to the argument numbered num.</td><td>Base instruction</td></tr><tr><td>0x10</td><td><code>starg.s &lt;uint8 (num)&gt;</code></td><td>Store value to the argument numbered num, short
+            form.
+          </td><td>Base instruction</td></tr><tr><td>0xA4</td><td><code>stelem &lt;typeTok&gt; </code></td><td>Replace array element at index with the value on the stack.</td><td>Object model instruction</td></tr><tr><td>0x9B</td><td><code>stelem.i</code></td><td>Replace array element at index with the i value on the stack.</td><td>Object model instruction</td></tr><tr><td>0x9C</td><td><code>stelem.i1</code></td><td>
+            Replace array element at index with the int8 value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x9D</td><td><code>stelem.i2</code></td><td>
+            Replace array element at index with the int16 value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x9E</td><td><code>stelem.i4</code></td><td>
+            Replace array element at index with the int32 value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x9F</td><td><code>stelem.i8</code></td><td>
+            Replace array element at index with the int64 value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0xA0</td><td><code>stelem.r4</code></td><td>
+            Replace array element at index with the float32 value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0xA1</td><td><code>stelem.r8</code></td><td>
+            Replace array element at index with the float64 value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0xA2</td><td><code>stelem.ref</code></td><td>
+            Replace array element at index with the ref value on the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0x7D</td><td><code>stfld &lt;field&gt;</code></td><td>Replace the value of field of the object obj with value.</td><td>Object model instruction</td></tr><tr><td>0xDF</td><td><code>stind.i</code></td><td>Store value of type native int into memory at address.</td><td>Base instruction</td></tr><tr><td>0x52</td><td><code>stind.i1</code></td><td>Store value of type int8 into memory at address.</td><td>Base instruction</td></tr><tr><td>0x53</td><td><code>stind.i2</code></td><td>Store value of type int16 into memory at address.</td><td>Base instruction</td></tr><tr><td>0x54</td><td><code>stind.i4</code></td><td>Store value of type int32 into memory at address.</td><td>Base instruction</td></tr><tr><td>0x55</td><td><code>stind.i8</code></td><td>Store value of type int64 into memory at address.</td><td>Base instruction</td></tr><tr><td>0x56</td><td><code>stind.r4</code></td><td>Store value of type float32 into memory at address.</td><td>Base instruction</td></tr><tr><td>0x57</td><td><code>stind.r8</code></td><td>Store value of type float64 into memory at address.</td><td>Base instruction</td></tr><tr><td>0x51</td><td><code>stind.ref</code></td><td>
+            Store value of type object ref (type O) into memory at address.
+          </td><td>Base instruction</td></tr><tr><td>0xFE 0x0E</td><td><code>stloc &lt;uint16 (indx)&gt;</code></td><td>Pop a value from stack into local variable indx.</td><td>Base instruction</td></tr><tr><td>0x0A</td><td><code>stloc.0</code></td><td>Pop a value from stack into local variable 0.</td><td>Base instruction</td></tr><tr><td>0x0B</td><td><code>stloc.1</code></td><td>Pop a value from stack into local variable 1.</td><td>Base instruction</td></tr><tr><td>0x0C</td><td><code>stloc.2</code></td><td>Pop a value from stack into local variable 2.</td><td>Base instruction</td></tr><tr><td>0x0D</td><td><code>stloc.3</code></td><td>Pop a value from stack into local variable 3.</td><td>Base instruction</td></tr><tr><td>0x13</td><td><code>stloc.s &lt;uint8 (indx)&gt;</code></td><td>Pop a value from stack into local variable indx, short form.</td><td>Base instruction</td></tr><tr><td>0x81</td><td><code>stobj &lt;typeTok&gt; </code></td><td>Store a value of type typeTok at an address.</td><td>Object model instruction</td></tr><tr><td>0x80</td><td><code>stsfld &lt;field&gt;</code></td><td>Replace the value of the static field with val.</td><td>Object model instruction</td></tr><tr><td>0x59</td><td><code>sub</code></td><td>Subtract value2 from value1, returning a new value.</td><td>Base instruction</td></tr><tr><td>0xDA</td><td><code>sub.ovf</code></td><td>Subtract native int from a native int. Signed result shall
+            fit in same size.
+          </td><td>Base instruction</td></tr><tr><td>0xDB</td><td><code>sub.ovf.un</code></td><td>
+            Subtract native unsigned int from a native unsigned int. Unsigned
+            result shall fit in same size.
+          </td><td>Base instruction</td></tr><tr><td>0x45</td><td><code>switch &lt;uint32, int32, int32 (t1..tN)&gt;</code></td><td>Jump to one of n values.</td><td>Base instruction</td></tr><tr><td>0xFE 0x14</td><td><code>tail.</code></td><td>Subsequent call terminates current method.</td><td>Prefix to instruction</td></tr><tr><td>0x7A</td><td><code>throw</code></td><td>Throwan exception.</td><td>Object model instruction</td></tr><tr><td>0xFE 0x12</td><td><code>unaligned. (alignment)</code></td><td>Subsequent pointer instruction might be unaligned.</td><td>Prefix to instruction</td></tr><tr><td>0x79</td><td><code>unbox &lt;valuetype&gt;</code></td><td>
+            Extract a value-type from obj, its boxed representation, and push a
+            controlled-mutability managed pointer to it to the top of the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0xA5</td><td><code>unbox.any &lt;typeTok&gt; </code></td><td>
+            Extract a value-type from obj, its boxed representation, and copy to
+            the top of the stack.
+          </td><td>Object model instruction</td></tr><tr><td>0xFE 0x13</td><td><code>volatile.</code></td><td>Subsequent pointer reference is volatile.</td><td>Prefix to instruction</td></tr><tr><td>0x61</td><td><code>xor</code></td><td>Bitwise XORof integer values, returns an integer.</td><td>Base instruction</td></tr></tbody><tfoot></tfoot></table></body></html>
